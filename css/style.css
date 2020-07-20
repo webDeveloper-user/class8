@@ -1,0 +1,85 @@
+body{
+
+}
+.navbar{
+	background: #000 !important;
+}
+.carousel{
+	overflow:hidden;
+}
+.carousel-item{
+	height:450px !important;
+}
+.carousel h2{
+	color:#fff;
+}
+#package .fas{
+	font-size:50px;
+}
+#getStart{
+	background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pc.jpeg) no-repeat top center / cover;
+	background-attachment: fixed;
+}
+#package{
+	clear:both;
+}
+#lightbox{
+	position:relative;
+	background:url(../img/people.jpeg) no-repeat top center / cover;
+	background-attachment:fixed;
+	min-height:250px;
+}
+.lightbox-overlay{
+	position:absolute;
+	background:rgba(0, 0, 0, 0.7);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+}
+#lightbox .fab{
+	color:red;
+	font-size:50px;
+}
+#gallery img{
+	min-height:250px;
+}
+@media (min-width:768px) and (max-width:991px) {
+	#gallery img{
+		min-height:200px;
+	}
+}
+footer{
+	background-color:#000;
+}
+
+/********************
+ABOUT PAGE START 
+*********************/
+
+#about-home{
+	background:url(../img/image2.jpeg) no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#aboutUs img{
+	width:350px;
+	height:350px;
+}
+
+#about-box .fas, #about-box .fab{
+	font-size:50px;
+}
+
+.blockquote-footer {
+	font-size:18px;
+	font-style:italic;
+}
+.slick-prev::before, .slick-next::before {
+	color:#000;
+}
+.active {
+	color:#fff;
+}
